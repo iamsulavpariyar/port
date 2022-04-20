@@ -18,6 +18,10 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+admin.site.site_header = "sulav portfolio"
+admin.site.site_title = "portfolio Admin Portal"
+admin.site.index_title = "Welcome to sulav portfolio"
+
 
 
 urlpatterns = [
